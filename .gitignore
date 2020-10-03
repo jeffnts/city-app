@@ -138,3 +138,5 @@ dist
 # .pnp.*
 
 # End of https://www.toptal.com/developers/gitignore/api/vscode,node,yarn
+
+.DS_Store
