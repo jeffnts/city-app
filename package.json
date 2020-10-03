@@ -1,0 +1,13 @@
+{
+  "name": "city-app",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:web": "yarn workspace web serve",
+    "dev:api": "yarn workspace api start:dev"
+  }
+}
